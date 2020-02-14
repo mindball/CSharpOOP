@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingletonPatternLazyImplementationExampleCSharpInDepth
+namespace SingletonDemo
 {
     class Program
     {

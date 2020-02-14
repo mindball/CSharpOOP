@@ -1,7 +1,6 @@
 ﻿# Singleton Pattern
-```
-	https://csharpindepth.com/articles/singleton#lazy
-```
+
+
 ## Introduction
 ```
 	The singleton pattern is one of the best-known patterns in software engineering.
@@ -31,5 +30,5 @@
 
 ## Authors
 
-* **John Skeet** - *C# in Depth* - [PurpleBooth](https://csharpindepth.com/)
+* **John Skeet** - *C# in Depth* - [Link](https://csharpindepth.com/)
 
