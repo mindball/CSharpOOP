@@ -1,0 +1,54 @@
+﻿- Layouts - define the format in which messages should be appended 
+	(e.g. SimpleLayout displays logs in the format "<date-time> - <report level> - <message>")
+	•	SimpleLayout - defines the format "<date-time> - <report level> - <message>"
+	var simpleLayout = new SimpleLayout();
+	var consoleAppender = new ConsoleAppender(simpleLayout);
+	Extensibility
+	The end-user should be able to add his own layouts/appenders/loggers and use them.
+	For example, he should be able to create his own XmlLayout and make the appenders use it,
+	without directly editing the library source code.
+	Example input:
+		•	"<appender type> <layout type> <REPORT LEVEL>"
+		•	"<appender type> <layout type>"
+			2 - two appenders with diff layouts
+			ConsoleAppender SimpleLayout CRITICAL
+			FileAppender XmlLayout
+
+- Appenders - responsible for appending the messages somewhere (e.g. Console, File, etc.)
+	* Whenever a logger is told to log something, it calls all of its appenders and tells
+	them to append the message. In turn, the appenders append the message (e.g. to the console or a file)
+	according to the layout they have.
+	•	ConsoleAppender - appends a log to the console, using the provided layout
+	•	FileAppender - appends a log to a file, using the provided layout
+	•	LogFile - a custom file class, which logs messages in a string builder,
+	using a method Write(). It should have a getter for its size, which is the sum
+	of the ascii codes of all alphabet characters it contains (e.g. a-z and A-Z)
+		var consoleAppender = new ConsoleAppender(simpleLayout);
+		var file = new LogFile();
+		var fileAppender = new FileAppender(simpleLayout, file);
+	Implement a report level threshold in all appenders. The appender should append only messages
+	with report level above or equal to its report level threshold (by default all messages are appended).
+	The report level is in the order Info > Warning > Error > Critical > Fatal.
+		var simpleLayout = new SimpleLayout();
+		var consoleAppender = new ConsoleAppender(simpleLayout);
+		consoleAppender.ReportLevel = ReportLevel.Error;
+-LogFile - A file should write all messages internally and it should keep information about its size.
+	Size of a file is calculated by summing ASCII codes of all alphabet characters (a-Z). 
+	For example, a file appender with simple layout and a single message "3/31/2015 5:33:07 PM - ERROR - Error parsing request" 
+	has size 2606 (including all characters in PM, ERROR, Error, parsing, request). In case of Xml layout, 
+	the file would have size 6632, because of the extra characters within the tags.
+- Command Interpreter
+	Implement a Command Interpreter, which reads all appenders that a Logger will have and input
+	messages from the console. Every message should be evaluated by all the appenders and logged,
+	if they meet the report level. Console appenders should write directly on the console. 
+	File appenders write (save) the messages, but do not print them.
+- Loggers - hold methods for various kinds of logging (warnings, errors, info, etc.)
+	Whenever a logger is told to log something, it calls all of its appenders and tells them to append the message. 
+	In turn, the appenders append the message (e.g. to the console or a file) according to the layout they have.
+		ILogger logger = new Logger(consoleAppender);
+		Logger logs data and time (string) and a message (string).
+	Logger - a logger class, which is used to log messages. Calls each of its appenders when something needs to be logged
+		var logger = new Logger(consoleAppender, fileAppender);
+		logger.Error("3/26/2015 2:08:11 PM", "Error parsing JSON.");
+		logger.Info("3/26/2015 2:08:11 PM", "User Pesho successfully registered.");
+

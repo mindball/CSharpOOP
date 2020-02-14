@@ -1,0 +1,11 @@
+﻿AddHero DarkKnight Gosho123
+AddMonster BloodyWolf
+AddItem BloodArmor
+AddItem BloodBoots
+AddItem BloodHelmet
+AddItem BloodPants
+AddItemToHero Gosho123 BloodArmor
+AddItemToHero Gosho123 BloodBoots
+AddItemToHero Gosho123 BloodHelmet
+AddItemToHero Gosho123 BloodPants
+AttackMonster Gosho123 BloodyWolf
