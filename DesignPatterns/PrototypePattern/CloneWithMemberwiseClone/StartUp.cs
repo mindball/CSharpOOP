@@ -1,10 +1,10 @@
-﻿namespace Prototype
-{
-    using System;
+﻿using System;
 
-    public class StartUp
+namespace CloneWithMemberwiseClone
+{
+    class StartUp
     {
-        public static void Main()
+        static void Main(string[] args)
         {
             SandwichMenu sandwichMenu = new SandwichMenu();
 
@@ -22,6 +22,7 @@
             Sandwich sandwich1 = sandwichMenu["BLT"].Clone() as Sandwich;
             Sandwich sandwich2 = sandwichMenu["ThreeMeatCombo"].Clone() as Sandwich;
             Sandwich sandwich3 = sandwichMenu["Vegetarian"].Clone() as Sandwich;
+
         }
     }
 }

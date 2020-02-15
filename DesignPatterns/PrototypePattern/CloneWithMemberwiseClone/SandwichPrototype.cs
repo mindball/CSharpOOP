@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace CloneWithMemberwiseClone
 {
     public abstract class SandwichPrototype
     {

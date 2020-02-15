@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace CloneWithMemberwiseClone
 {
     using System.Collections.Generic;
 
