@@ -31,9 +31,15 @@ Easy, automated. Give up some control and serialization is slowest of all.
 More advanced solutions, not as common.	
 ```
 
-## Deep cloning
+## Types of cloning
+![Image of Yaktocat] (http://www.csharp411.com/wp-content/uploads/2008/05/objectclone.jpg)
+## Deep cloning 
 
 ## Shallow cloning
+```
+ A shallow clone copies the references but not the referenced objects
+```
+
 
 
 ## Implement by ICloneable (interface acts as Prototype)
