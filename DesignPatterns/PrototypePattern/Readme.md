@@ -32,7 +32,7 @@ More advanced solutions, not as common.
 ```
 
 ## Types of cloning
-![Image of Yaktocat] (http://www.csharp411.com/wp-content/uploads/2008/05/objectclone.jpg)
+![Image of Yaktocat](http://www.csharp411.com/wp-content/uploads/2008/05/objectclone.jpg)
 ## Deep cloning 
 
 ## Shallow cloning
