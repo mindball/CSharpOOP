@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Example
+namespace FactoryMethodExample
 {
-    public abstract class Pizza
+    public abstract class Pizza : IPizza
     {
         private string  name;
         private string  souce;

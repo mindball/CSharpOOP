@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Example
+namespace FactoryMethodExample
 {
-    public class SimplePizzaFactory
+    public class PizzaFactory
     {
-        public Pizza CreatePizza(string pizzaName)
+        public IPizza CreatePizza(string pizzaName)
         {
-            Pizza pizzaType = null;
+            IPizza pizzaType = null;
 
             if (pizzaName.Contains("Piperoni")) pizzaType = new PeperoniPizza();
             else pizzaType = new CheesePizza();

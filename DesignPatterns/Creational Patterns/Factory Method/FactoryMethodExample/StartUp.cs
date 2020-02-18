@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Example
+namespace FactoryMethodExample
 {
     class StartUp
     {
@@ -12,8 +12,8 @@ namespace Example
 
         private static void OrderPizza(string pizzaName)
         {
-            SimplePizzaFactory pizzaFactory = new SimplePizzaFactory();
-            Pizza pizzaType = pizzaFactory.CreatePizza(pizzaName);
+            PizzaFactory pizzaFactory = new PizzaFactory();
+            IPizza pizzaType = pizzaFactory.CreatePizza(pizzaName);
 
             pizzaType.Prepare();
             Console.WriteLine($"Price of {pizzaType}: someSum");

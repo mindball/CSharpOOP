@@ -29,6 +29,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneManually", "Creational
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneWithMemberwiseClone", "Creational Patterns\Prototype Pattern\CloneWithMemberwiseClone\CloneWithMemberwiseClone.csproj", "{B68C0A25-5418-4D40-8F28-906E106E6272}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{693E432A-5457-4FC6-A357-A06C899D8063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodExample", "Creational Patterns\Factory Method\FactoryMethodExample\FactoryMethodExample.csproj", "{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDemo", "Creational Patterns\Singleton Pattern\SingletonDemo\SingletonDemo.csproj", "{AD9A1EB4-EB04-4D90-944C-548ABE3358C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyImplementationExampleCSharpInDepth", "Creational Patterns\Singleton Pattern\LazyImplementationExampleCSharpInDepth\LazyImplementationExampleCSharpInDepth.csproj", "{1DB51628-B924-447D-9594-E10262D928A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeWithoutUsingLocks", "Creational Patterns\Singleton Pattern\ThreadSafeWithoutUsingLocks\ThreadSafeWithoutUsingLocks.csproj", "{1CCF27AC-5B03-463C-A2C4-845605502615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +69,22 @@ Global
 		{B68C0A25-5418-4D40-8F28-906E106E6272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B68C0A25-5418-4D40-8F28-906E106E6272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B68C0A25-5418-4D40-8F28-906E106E6272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9A1EB4-EB04-4D90-944C-548ABE3358C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9A1EB4-EB04-4D90-944C-548ABE3358C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9A1EB4-EB04-4D90-944C-548ABE3358C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9A1EB4-EB04-4D90-944C-548ABE3358C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB51628-B924-447D-9594-E10262D928A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB51628-B924-447D-9594-E10262D928A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB51628-B924-447D-9594-E10262D928A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB51628-B924-447D-9594-E10262D928A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCF27AC-5B03-463C-A2C4-845605502615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCF27AC-5B03-463C-A2C4-845605502615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCF27AC-5B03-463C-A2C4-845605502615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCF27AC-5B03-463C-A2C4-845605502615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +100,11 @@ Global
 		{168AC550-F323-4DAC-9887-5CCF0D635A8F} = {A60DEC21-A5DB-4967-ADBC-1A1915761014}
 		{3247066F-A3D6-420F-976A-D3319F81E8B9} = {C2C72221-8EBC-4A3E-91C4-AA71B4E34896}
 		{B68C0A25-5418-4D40-8F28-906E106E6272} = {C2C72221-8EBC-4A3E-91C4-AA71B4E34896}
+		{693E432A-5457-4FC6-A357-A06C899D8063} = {A60DEC21-A5DB-4967-ADBC-1A1915761014}
+		{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E} = {693E432A-5457-4FC6-A357-A06C899D8063}
+		{AD9A1EB4-EB04-4D90-944C-548ABE3358C8} = {168AC550-F323-4DAC-9887-5CCF0D635A8F}
+		{1DB51628-B924-447D-9594-E10262D928A6} = {168AC550-F323-4DAC-9887-5CCF0D635A8F}
+		{1CCF27AC-5B03-463C-A2C4-845605502615} = {168AC550-F323-4DAC-9887-5CCF0D635A8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
