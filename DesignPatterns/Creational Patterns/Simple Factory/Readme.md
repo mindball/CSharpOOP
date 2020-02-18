@@ -4,3 +4,9 @@
 
 ## Simple Factory
 	– Use when you have only one family of objects
+
+## Why would we do this? 
+```
+* Multiple clients  needing same types of object 
+* Ensure consistent object initialization 
+```
