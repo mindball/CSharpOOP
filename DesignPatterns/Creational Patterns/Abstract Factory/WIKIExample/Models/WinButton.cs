@@ -8,7 +8,6 @@ namespace WIKIExample.Models
         {
             //Render a button in a Windows style
             System.Console.WriteLine("Win button render!!");
-
         }
     }
 }
