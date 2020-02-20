@@ -12,12 +12,11 @@ namespace Example
         {
             FluentEmployee empl = new FluentEmployee();
 
-            empl.NameOfEmployee("Mich")
+            Employee employeeBuilded = empl.NameOfEmployee("Mich")
                 .AgeOfEmployee(29)
                 .BornDateOfEmployee("01/05/1991")
-                .AddressOfEmployee("Belgium");
-
-            Employee employeeBuilded = empl.Employee;
+                .AddressOfEmployee("Belgium")
+                .Employee;
         }
     }
 }
