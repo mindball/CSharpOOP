@@ -30,3 +30,15 @@ It is important to note that once an object has been used and returned,
 existing references will become invalid.
 ```
 ### When there are several clients need the same resources at different times.
+
+## The Pros and Cons of the Object Pool Pattern
+### PROS
+* The Object Pool Pattern helps increase the overall performance of the application.
+* The Object Pool Pattern helps achieve high initialization speed of a new object in some situations.
+* The Object Pool Pattern helps manage connections and provides a way to reuse and share them.
+* The Object Pool Pattern helps limit the maximum number of objects that can be created.
+### CONS
+* The return of the object back to the pool is completely dependent on the Client. 
+	If the Client forgets to return the object back to the pool, then other components cannot use that object when they need it.
+* The retainment of multiple objects in the pool for a long time without destroying
+	them will more or less consume system resources.

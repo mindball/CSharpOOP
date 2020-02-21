@@ -13,12 +13,18 @@ namespace Example
             EmployeePool newPool = new EmployeePool();
             var employeesExampleOne = newPool.getEmployee();
             var employeesExampleTwo = newPool.getEmployee();
+            newPool.Release(employeesExampleTwo);
 
-            //Console.WriteLine(employeesExampleOne.GetInfo());
-            //Console.WriteLine(employeesExampleTwo.GetInfo());
+            Console.WriteLine(employeesExampleOne.GetInfo());
+            Console.WriteLine(employeesExampleTwo.GetInfo());
 
-            newPool.getOccupiedEmployees().ForEach(x => Console.WriteLine(x.GetInfo()));
-            newPool.getFreeEmployees().ForEach(x => Console.WriteLine(x.GetInfo()));
+            newPool.getOccupiedEmployees()
+                .ForEach(
+                x => Console.WriteLine($"List of occupied employees: {x.Name}"));
+
+            newPool.getFreeEmployees()
+                .ForEach(
+                x => Console.WriteLine($"List of free employees: {x.Name}"));
 
         }
     }

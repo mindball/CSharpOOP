@@ -7,7 +7,7 @@ namespace Example
     {
         private Dictionary<int, Employee> occupiedEmployees;
         private Stack<Employee> freeEmployees;
-        private string[] names = { "William", "Chris", "Elsa", "Jane", "Bob", "Mincho", "Ivan",  };
+        private string[] names = { "William", "Chris", "Elsa", "Jane", "Bob", "Mincho", "Ivan"};
         private Random generator = new Random();
 
         public EmployeePool()
