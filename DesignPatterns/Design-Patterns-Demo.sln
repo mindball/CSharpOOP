@@ -15,27 +15,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1DF999F3-2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{7A1C45E9-20A1-4870-8768-D4037D63E8A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDemo", "Structural Patterns\FacadeDemo\FacadeDemo.csproj", "{1908FF6E-D0F8-40EE-A837-F1075D41E4CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeDemo", "Structural Patterns\FacadeDemo\FacadeDemo.csproj", "{1908FF6E-D0F8-40EE-A837-F1075D41E4CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple Factory", "Simple Factory", "{F5828C05-9C91-48EA-86E1-7E5C94332788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Creational Patterns\Simple Factory\Example\Example.csproj", "{6CF2246F-7BAE-4AB4-9941-E47879FBE0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Creational Patterns\Simple Factory\Example\Example.csproj", "{6CF2246F-7BAE-4AB4-9941-E47879FBE0AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype Pattern", "Prototype Pattern", "{C2C72221-8EBC-4A3E-91C4-AA71B4E34896}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton Pattern", "Singleton Pattern", "{168AC550-F323-4DAC-9887-5CCF0D635A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneManually", "Creational Patterns\Prototype Pattern\CloneManually\CloneManually.csproj", "{3247066F-A3D6-420F-976A-D3319F81E8B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloneManually", "Creational Patterns\Prototype Pattern\CloneManually\CloneManually.csproj", "{3247066F-A3D6-420F-976A-D3319F81E8B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneWithMemberwiseClone", "Creational Patterns\Prototype Pattern\CloneWithMemberwiseClone\CloneWithMemberwiseClone.csproj", "{B68C0A25-5418-4D40-8F28-906E106E6272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloneWithMemberwiseClone", "Creational Patterns\Prototype Pattern\CloneWithMemberwiseClone\CloneWithMemberwiseClone.csproj", "{B68C0A25-5418-4D40-8F28-906E106E6272}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{693E432A-5457-4FC6-A357-A06C899D8063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodExample", "Creational Patterns\Factory Method\FactoryMethodExample\FactoryMethodExample.csproj", "{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodExample", "Creational Patterns\Factory Method\FactoryMethodExample\FactoryMethodExample.csproj", "{029776A0-7C84-4DB8-B5F4-3AAEBA3ACF7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDemo", "Creational Patterns\Singleton Pattern\SingletonDemo\SingletonDemo.csproj", "{AD9A1EB4-EB04-4D90-944C-548ABE3358C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDemo", "Creational Patterns\Singleton Pattern\SingletonDemo\SingletonDemo.csproj", "{AD9A1EB4-EB04-4D90-944C-548ABE3358C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyImplementationExampleCSharpInDepth", "Creational Patterns\Singleton Pattern\LazyImplementationExampleCSharpInDepth\LazyImplementationExampleCSharpInDepth.csproj", "{1DB51628-B924-447D-9594-E10262D928A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyImplementationExampleCSharpInDepth", "Creational Patterns\Singleton Pattern\LazyImplementationExampleCSharpInDepth\LazyImplementationExampleCSharpInDepth.csproj", "{1DB51628-B924-447D-9594-E10262D928A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafeWithoutUsingLocks", "Creational Patterns\Singleton Pattern\ThreadSafeWithoutUsingLocks\ThreadSafeWithoutUsingLocks.csproj", "{1CCF27AC-5B03-463C-A2C4-845605502615}"
 EndProject
@@ -66,6 +66,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Creational Patterns\Lazy Initialization\Example\Example.csproj", "{744B660D-9BE3-4585-8068-F197770C467E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2", "Creational Patterns\Lazy Initialization\Example2\Example2.csproj", "{56F5687A-BC45-4A42-B4F2-47CDDAC13AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniExample", "Creational Patterns\Builder Pattern\SoftUniExample\SoftUniExample.csproj", "{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +151,10 @@ Global
 		{56F5687A-BC45-4A42-B4F2-47CDDAC13AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F5687A-BC45-4A42-B4F2-47CDDAC13AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F5687A-BC45-4A42-B4F2-47CDDAC13AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -183,6 +189,7 @@ Global
 		{1FE34421-5F9B-436E-841E-9A6BC66B02D7} = {A60DEC21-A5DB-4967-ADBC-1A1915761014}
 		{744B660D-9BE3-4585-8068-F197770C467E} = {1FE34421-5F9B-436E-841E-9A6BC66B02D7}
 		{56F5687A-BC45-4A42-B4F2-47CDDAC13AD5} = {1FE34421-5F9B-436E-841E-9A6BC66B02D7}
+		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A} = {8AA8F047-BB2E-49E9-8A28-EF59E5772F96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}

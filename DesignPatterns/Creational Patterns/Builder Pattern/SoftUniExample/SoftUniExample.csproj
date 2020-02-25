@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56F5687A-BC45-4A42-B4F2-47CDDAC13AD5}</ProjectGuid>
+    <ProjectGuid>{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Example2</RootNamespace>
-    <AssemblyName>Example2</AssemblyName>
+    <RootNamespace>SoftUniExample</RootNamespace>
+    <AssemblyName>SoftUniExample</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LazyFactoryObject.cs" />
-    <Compile Include="LazyObject.cs" />
-    <Compile Include="LazyObjectSize.cs" />
+    <Compile Include="Builders\CarBuilder.cs" />
+    <Compile Include="Builders\MotorCycleBuilder.cs" />
+    <Compile Include="Builders\ScooterBuilder.cs" />
+    <Compile Include="Builders\VehicleBuilder.cs" />
+    <Compile Include="Directors\IVehicleConstructor.cs" />
+    <Compile Include="Directors\VehicleConstructor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
