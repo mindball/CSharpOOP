@@ -2,6 +2,7 @@
 ```
 fluent interface is a method for designing object-oriented APIs that 
 relies extensively on method chaining
+След последователност от извикване на някакви методи да имаме продуциран (завършен) обект.
 ```
 
 ## Implementation
