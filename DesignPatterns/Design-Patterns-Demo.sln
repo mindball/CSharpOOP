@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniExample", "Creationa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade Pattern", "Facade Pattern", "{824B87D5-2BF3-4AC1-85DF-E46B1A8AD231}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDemo", "Structural Patterns\Facade Pattern\FacadeDemo\FacadeDemo.csproj", "{FDC11991-7940-463F-A814-B51B55F2BFAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC11991-7940-463F-A814-B51B55F2BFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC11991-7940-463F-A814-B51B55F2BFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC11991-7940-463F-A814-B51B55F2BFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC11991-7940-463F-A814-B51B55F2BFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +192,7 @@ Global
 		{56F5687A-BC45-4A42-B4F2-47CDDAC13AD5} = {1FE34421-5F9B-436E-841E-9A6BC66B02D7}
 		{F13B2725-02E1-4DAD-B8C8-1FA851C0760A} = {8AA8F047-BB2E-49E9-8A28-EF59E5772F96}
 		{824B87D5-2BF3-4AC1-85DF-E46B1A8AD231} = {7A1C45E9-20A1-4870-8768-D4037D63E8A3}
+		{FDC11991-7940-463F-A814-B51B55F2BFAD} = {824B87D5-2BF3-4AC1-85DF-E46B1A8AD231}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
