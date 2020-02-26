@@ -2,12 +2,12 @@
 {
     public class CarBuilderFacade
     {
-        protected Car Car { get; set; }
 
         public CarBuilderFacade()
         {
-            Car = new Car();
+            this.Car = new Car();
         }
+        protected Car Car { get; set; }
 
         public Car Build() => Car;
 
