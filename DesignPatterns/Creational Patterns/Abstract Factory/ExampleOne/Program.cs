@@ -6,7 +6,7 @@ namespace ExampleOne
     {
         static void Main(string[] args)
         {
-            Client newClient = new Client()
+            Client newClient = new Client();
         }
     }
 }

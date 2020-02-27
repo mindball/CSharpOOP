@@ -75,6 +75,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldCodeExample", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeprojectExample", "Structural Patterns\Facade Pattern\CodeprojectExample\CodeprojectExample.csproj", "{5F90D668-07EE-4A80-B5B8-EADCD2D4BCB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite Pattern", "Composite Pattern", "{A7545975-7A85-4CFA-8148-E314408585CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiExample", "Structural Patterns\Composite Pattern\WikiExample\WikiExample.csproj", "{6F429F25-B242-4758-B7CA-E9EE592742FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composition Over Inheritance", "Composition Over Inheritance", "{F98ABDC7-AD7A-427E-A880-DA5D7FF58D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottLillyExample", "Composition Over Inheritance\ScottLillyExample\ScottLillyExample.csproj", "{59F73E03-A521-4403-8475-5145E546DE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMonsterFactory", "Composition Over Inheritance\ScottLillyExample\TestMonsterFactory\TestMonsterFactory.csproj", "{4A55D3E6-44BF-4279-B92D-44EE262F6CFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +179,18 @@ Global
 		{5F90D668-07EE-4A80-B5B8-EADCD2D4BCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F90D668-07EE-4A80-B5B8-EADCD2D4BCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F90D668-07EE-4A80-B5B8-EADCD2D4BCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F429F25-B242-4758-B7CA-E9EE592742FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F429F25-B242-4758-B7CA-E9EE592742FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F429F25-B242-4758-B7CA-E9EE592742FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F429F25-B242-4758-B7CA-E9EE592742FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F73E03-A521-4403-8475-5145E546DE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F73E03-A521-4403-8475-5145E546DE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F73E03-A521-4403-8475-5145E546DE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F73E03-A521-4403-8475-5145E546DE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A55D3E6-44BF-4279-B92D-44EE262F6CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A55D3E6-44BF-4279-B92D-44EE262F6CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A55D3E6-44BF-4279-B92D-44EE262F6CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A55D3E6-44BF-4279-B92D-44EE262F6CFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +229,10 @@ Global
 		{FDC11991-7940-463F-A814-B51B55F2BFAD} = {824B87D5-2BF3-4AC1-85DF-E46B1A8AD231}
 		{389B76AF-046A-4E63-A8C0-CFF82BFF81EA} = {824B87D5-2BF3-4AC1-85DF-E46B1A8AD231}
 		{5F90D668-07EE-4A80-B5B8-EADCD2D4BCB7} = {824B87D5-2BF3-4AC1-85DF-E46B1A8AD231}
+		{A7545975-7A85-4CFA-8148-E314408585CD} = {7A1C45E9-20A1-4870-8768-D4037D63E8A3}
+		{6F429F25-B242-4758-B7CA-E9EE592742FE} = {A7545975-7A85-4CFA-8148-E314408585CD}
+		{59F73E03-A521-4403-8475-5145E546DE63} = {F98ABDC7-AD7A-427E-A880-DA5D7FF58D9F}
+		{4A55D3E6-44BF-4279-B92D-44EE262F6CFD} = {F98ABDC7-AD7A-427E-A880-DA5D7FF58D9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
