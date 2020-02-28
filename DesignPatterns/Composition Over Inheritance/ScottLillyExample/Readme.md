@@ -27,6 +27,6 @@ inherit from Monster, BitingMonster, or KickingMonster.
 ```
 Let’s pretend you work at a game programming company.
 You’re building a new game, and you create a Monster class, with two
-properties – HitPoints and AttackDamage. The code might look like this:
-[before Inheritance](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/Before%20Inheritance/Monster.cs)
+properties – HitPoints and AttackDamage.
 ```
+The code might look like this:[before Inheritance](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/Before%20Inheritance/Monster.cs)
