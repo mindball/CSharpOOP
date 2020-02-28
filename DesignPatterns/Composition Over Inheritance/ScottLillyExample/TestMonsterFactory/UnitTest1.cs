@@ -20,7 +20,7 @@ namespace TestMonsterFactory
 
             Assert.IsTrue(horse is BitingMonster);
 
-            // This test will fail, because we cannot inherit from multiple base classes.
+            // This test will fail in, because we cannot inherit from multiple base classes.
             Assert.IsTrue(horse is KickingMonster);
         }
     }

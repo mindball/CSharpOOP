@@ -66,6 +66,7 @@ There is another problem. If we try to determine the “type” of an object, to
 determine what attacks it can perform, we can only check against the single base 
 class – not the second class.
 ```
+[UnitTest](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/TestMonsterFactory/UnitTest1.cs)
 ```
 After you finish creating all these classes, your boss sends you an email. 
 Now, you need to have monsters that can also attack by spitting.
@@ -85,7 +86,15 @@ I added a few more properties (CanBite, CanKick, and CanPunch), to make it easy
 to know what types of attacks a monster can perform.
 
 This one class also has all the Damage properties in it (BiteDamage, KickDamage, and PunchDamage).
-
+```
 **With these six properties, we can compose the Monster object to attack however 
 we want – which we do in the MonsterFactory class below.**
+
+### Where I’ve found it useful
 ```
+There are two common situations when you would want to consider using composition, instead of inheritance: when you need to do multiple inheritance, and when your sub-classes start to have their own sub-classes.
+```
+
+**You might also combine object composition with the Strategy Design Pattern. 
+Instead of composing the object with property values (the attack type and damage), 
+you could also compose it by configuring how it will perform its actions.**
