@@ -29,4 +29,14 @@ Let’s pretend you work at a game programming company.
 You’re building a new game, and you create a Monster class, with two
 properties – HitPoints and AttackDamage.
 ```
-The code might look like this:[before Inheritance](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/Before%20Inheritance/Monster.cs)
+The code might look like this: [before Inheritance](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/Before%20Inheritance/Monster.cs)
+```
+Then, your boss tells you the game needs to have different types of monsters.
+One type will attack by biting, the second by kicking, and the third by punching. 
+So, you make the Monster class into a base class, and create three new 
+sub-classes from it: BitingMonster, KickingMonster, and PunchingMonster.
+```
+Now, you have these classes:
+[Monster.cs](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/After%20Inheritance/Monster.cs)
+[BitingMonster.cs](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/After%20Inheritance/BitingMonster.cs)
+[KickingMonster.cs](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/After%20Inheritance/KickingMonster.cs)
