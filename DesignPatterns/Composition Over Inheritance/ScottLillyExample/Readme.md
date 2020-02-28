@@ -92,7 +92,9 @@ we want – which we do in the MonsterFactory class below.**
 
 ### Where I’ve found it useful
 ```
-There are two common situations when you would want to consider using composition, instead of inheritance: when you need to do multiple inheritance, and when your sub-classes start to have their own sub-classes.
+There are two common situations when you would want to consider using composition, 
+instead of inheritance: when you need to do multiple inheritance, and when your 
+sub-classes start to have their own sub-classes.
 ```
 
 **You might also combine object composition with the Strategy Design Pattern. 
