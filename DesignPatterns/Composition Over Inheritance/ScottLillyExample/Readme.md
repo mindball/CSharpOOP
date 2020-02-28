@@ -40,3 +40,52 @@ Now, you have these classes:
 [Monster.cs](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/After%20Inheritance/Monster.cs)
 [BitingMonster.cs](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/After%20Inheritance/BitingMonster.cs)
 [KickingMonster.cs](https://github.com/mindball/CSharpOOP/blob/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/After%20Inheritance/KickingMonster.cs)
+```
+The next day, your boss tells you they need new types of monsters in the game – 
+ones that can do different combinations of biting, kicking, and punching. 
+Because this is getting complex, you also build a Factory class, to create 
+the different types of monster objects.
+```
+If you continue with making sub-classes, you could end up with this code: see After Inheritance!!!
+* BitingKickingMonster.cs
+* BitingKickingPunchingMonster.cs
+* BitingPunchingMonster.cs
+* KickingPunchingMonster.cs
+```
+Notice that we run into a problem when a new class needs to inherit from more 
+than one base class. For example, the BitingKickingMonster inherits from BitingMonster,
+and duplicates the KickDamage property – because it could not also inherit from 
+KickingMonster.
+```
+```
+If these classes were in a real program, and not a simple demonstration, there 
+would probably be much more duplication of properties and functions.
+```
+```
+There is another problem. If we try to determine the “type” of an object, to 
+determine what attacks it can perform, we can only check against the single base 
+class – not the second class.
+```
+```
+After you finish creating all these classes, your boss sends you an email. 
+Now, you need to have monsters that can also attack by spitting.
+Cobras will bite and spit, camels will kick and spit, etc.
+Instead of creating more sub-classes, you decide to try using composition.
+```
+## Composition version
+
+See: [Composition Before](https://github.com/mindball/CSharpOOP/tree/master/DesignPatterns/Composition%20Over%20Inheritance/ScottLillyExample/Composition_Before)
+
+```
+With this Monster class, when we create a new Monster object, we “compose” its 
+Attack options by calling the AddAttackType() function – with the AttackType, and 
+the amount of damage the monster does with this attack.
+
+I added a few more properties (CanBite, CanKick, and CanPunch), to make it easy 
+to know what types of attacks a monster can perform.
+
+This one class also has all the Damage properties in it (BiteDamage, KickDamage, and PunchDamage).
+
+**With these six properties, we can compose the Monster object to attack however 
+we want – which we do in the MonsterFactory class below.**
+```
