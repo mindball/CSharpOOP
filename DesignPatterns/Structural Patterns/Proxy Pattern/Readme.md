@@ -48,6 +48,15 @@ a Proxy usually manages the life cycle of its service object on its own,
 whereas the composition of Decorators is always controlled by the client.
 ```
 
+## Will I Ever Use This Pattern?
+```
+Вероятно. Ако някога сте имали нужда да промените поведението на съществуващ 
+обект, без всъщност да промените дефиницията на този обект, моделът прокси 
+може да ви позволи да направите това. Освен това виждам е много 
+полезно при тестване на сценарии, където може да се наложи да копирате 
+поведението на клас, без да го прилагате напълно.
+```
+
 
 
 
