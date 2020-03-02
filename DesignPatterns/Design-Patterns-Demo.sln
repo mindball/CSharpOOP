@@ -83,17 +83,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composition Over Inheritanc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottLillyExample", "Composition Over Inheritance\ScottLillyExample\ScottLillyExample.csproj", "{59F73E03-A521-4403-8475-5145E546DE63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMonsterFactory", "Composition Over Inheritance\ScottLillyExample\TestMonsterFactory\TestMonsterFactory.csproj", "{4A55D3E6-44BF-4279-B92D-44EE262F6CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMonsterFactory", "Composition Over Inheritance\ScottLillyExample\TestMonsterFactory\TestMonsterFactory.csproj", "{4A55D3E6-44BF-4279-B92D-44EE262F6CFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnettricksExample", "Structural Patterns\Composite Pattern\DotnettricksExample\DotnettricksExample.csproj", "{862723F5-7DB5-4D7D-9BC8-F63A06A9B083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnettricksExample", "Structural Patterns\Composite Pattern\DotnettricksExample\DotnettricksExample.csproj", "{862723F5-7DB5-4D7D-9BC8-F63A06A9B083}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{0CD4AD38-BA47-4BED-B7D9-80B825AECB93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnettricksExampleFlyweight", "Structural Patterns\Flyweight\DotnettricksExampleFlyweight\DotnettricksExampleFlyweight.csproj", "{10CF252E-548A-47E4-BD5D-0C9250E962CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnettricksExampleFlyweight", "Structural Patterns\Flyweight\DotnettricksExampleFlyweight\DotnettricksExampleFlyweight.csproj", "{10CF252E-548A-47E4-BD5D-0C9250E962CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourcemakingWithRefactoring", "Structural Patterns\Flyweight\Sourcemaking\SourcemakingWithRefactoring.csproj", "{F64644F3-EBAE-43BA-83E3-BC1C10F6A910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourcemakingWithRefactoring", "Structural Patterns\Flyweight\Sourcemaking\SourcemakingWithRefactoring.csproj", "{F64644F3-EBAE-43BA-83E3-BC1C10F6A910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourcemakingWithoutRefactoring", "Structural Patterns\Flyweight\SourcemakingWithoutRefactoring\SourcemakingWithoutRefactoring.csproj", "{3B77D975-8583-46D5-81DB-74B070F6C2C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourcemakingWithoutRefactoring", "Structural Patterns\Flyweight\SourcemakingWithoutRefactoring\SourcemakingWithoutRefactoring.csproj", "{3B77D975-8583-46D5-81DB-74B070F6C2C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy Pattern", "Proxy Pattern", "{E00BE694-4159-4A9A-A87D-D616A32A1134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeProjectDemo", "Structural Patterns\Proxy Pattern\CodeProjectDemo\CodeProjectDemo.csproj", "{F4FE76A7-F608-4CE1-A8C6-D6A2C824FB02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -217,6 +221,10 @@ Global
 		{3B77D975-8583-46D5-81DB-74B070F6C2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B77D975-8583-46D5-81DB-74B070F6C2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B77D975-8583-46D5-81DB-74B070F6C2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FE76A7-F608-4CE1-A8C6-D6A2C824FB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FE76A7-F608-4CE1-A8C6-D6A2C824FB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FE76A7-F608-4CE1-A8C6-D6A2C824FB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FE76A7-F608-4CE1-A8C6-D6A2C824FB02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +272,8 @@ Global
 		{10CF252E-548A-47E4-BD5D-0C9250E962CF} = {0CD4AD38-BA47-4BED-B7D9-80B825AECB93}
 		{F64644F3-EBAE-43BA-83E3-BC1C10F6A910} = {0CD4AD38-BA47-4BED-B7D9-80B825AECB93}
 		{3B77D975-8583-46D5-81DB-74B070F6C2C3} = {0CD4AD38-BA47-4BED-B7D9-80B825AECB93}
+		{E00BE694-4159-4A9A-A87D-D616A32A1134} = {7A1C45E9-20A1-4870-8768-D4037D63E8A3}
+		{F4FE76A7-F608-4CE1-A8C6-D6A2C824FB02} = {E00BE694-4159-4A9A-A87D-D616A32A1134}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
