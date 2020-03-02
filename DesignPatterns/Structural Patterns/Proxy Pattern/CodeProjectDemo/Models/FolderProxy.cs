@@ -43,6 +43,8 @@ namespace CodeProjectDemo.Models
                     break;
             }
 
+            Console.WriteLine(this.user.UserName + " folder perform:");
+
             foreach (var folder in folders)
             {
                 folder.PerformOperations();
