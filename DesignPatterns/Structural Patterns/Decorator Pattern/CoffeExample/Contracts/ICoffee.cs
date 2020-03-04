@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CoffeExample.Contracts
+﻿namespace CoffeExample.Contracts
 {
     public interface ICoffee
     {
