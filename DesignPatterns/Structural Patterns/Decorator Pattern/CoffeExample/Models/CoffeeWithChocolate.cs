@@ -2,9 +2,9 @@
 
 namespace CoffeExample.Models
 {
-    public class ChocolateCoffee : CondimentDecorator
+    public class CoffeeWithChocolate : CondimentDecorator
     {
-        public ChocolateCoffee(ICoffee coffee)
+        public CoffeeWithChocolate(ICoffee coffee)
             : base(coffee)
         {
             this.coffeType = "chocolate";

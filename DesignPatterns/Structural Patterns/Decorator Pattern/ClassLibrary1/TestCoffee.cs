@@ -16,8 +16,8 @@ namespace TestCoffee
         {
             var beverages = new List<ICoffee>
             {
-                new ChocolateCoffee(new FilteredCoffee()),
-                new ChocolateCoffee(new CoffeeWithMilk(new EspressoCoffee()))
+                new CoffeeWithChocolate(new FilteredCoffee()),
+                new CoffeeWithChocolate(new CoffeeWithMilk(new EspressoCoffee()))
             };
 
             var filteredWithChocolate = beverages.First();
@@ -30,8 +30,6 @@ namespace TestCoffee
             Assert.AreEqual("Espresso coffee, milk, chocolate",
                     espressoWithMilkAndChocolate.GetDescription());
             Assert.AreEqual(1.00 + 0.50 + 2.00, espressoWithMilkAndChocolate.Cost());
-
-
         }
     }
 }

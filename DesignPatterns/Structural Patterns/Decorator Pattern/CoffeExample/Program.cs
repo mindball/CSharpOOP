@@ -27,11 +27,11 @@ namespace CoffeExample
             Console.WriteLine($"Order: {espressoCoffeeWithMilk.GetDescription()}, " +
                 $"price calculating: {espressoCoffeeWithMilk.Cost()}");
 
-            ICoffee filteredCoffeeWithChocolate = new ChocolateCoffee(new FilteredCoffee());
+            ICoffee filteredCoffeeWithChocolate = new CoffeeWithChocolate(new FilteredCoffee());
             Console.WriteLine($"Order: {filteredCoffeeWithChocolate.GetDescription()}, " +
                 $"price calculating: {filteredCoffeeWithChocolate.Cost()}");
 
-            ICoffee espressoCoffeeWithChocolate = new ChocolateCoffee(new EspressoCoffee());
+            ICoffee espressoCoffeeWithChocolate = new CoffeeWithChocolate(new EspressoCoffee());
             Console.WriteLine($"Order: {espressoCoffeeWithChocolate.GetDescription()}, " +
                 $"price calculating: {espressoCoffeeWithChocolate.Cost()}");
 
@@ -39,12 +39,12 @@ namespace CoffeExample
             Console.WriteLine("--------Condiment--------");
 
             ICoffee espressoCoffeeWithChocolateAndMilk = 
-                new ChocolateCoffee(new CoffeeWithMilk(new EspressoCoffee()));
+                new CoffeeWithChocolate(new CoffeeWithMilk(new EspressoCoffee()));
             Console.WriteLine($"Order: {espressoCoffeeWithChocolateAndMilk.GetDescription()}, " +
                 $"price calculating: {espressoCoffeeWithChocolateAndMilk.Cost()}");
 
             ICoffee filteredCoffeeWithChocolateAndMilk =
-               new ChocolateCoffee(new CoffeeWithMilk(new FilteredCoffee()));
+               new CoffeeWithChocolate(new CoffeeWithMilk(new FilteredCoffee()));
             Console.WriteLine($"Order: {filteredCoffeeWithChocolateAndMilk.GetDescription()}, " +
                 $"price calculating: {filteredCoffeeWithChocolateAndMilk.Cost()}");
         }
