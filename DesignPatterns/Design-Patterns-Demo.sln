@@ -103,19 +103,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Structural Patterns
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator Pattern", "Decorator Pattern", "{A972A689-DFD3-4D6B-9CC9-AA059DDCAC9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeExample", "Structural Patterns\Decorator Pattern\CoffeExample\CoffeExample.csproj", "{CD14B515-8299-4F5E-A6B6-A744F4324873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeExample", "Structural Patterns\Decorator Pattern\CoffeExample\CoffeExample.csproj", "{CD14B515-8299-4F5E-A6B6-A744F4324873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCoffee", "Structural Patterns\Decorator Pattern\ClassLibrary1\TestCoffee.csproj", "{38EB1FA7-5B06-4C70-AE8D-7F1143CA2C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCoffee", "Structural Patterns\Decorator Pattern\ClassLibrary1\TestCoffee.csproj", "{38EB1FA7-5B06-4C70-AE8D-7F1143CA2C42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter pattern", "Adapter pattern", "{14BAED68-6830-47C6-8998-7A4813628F91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExample", "Structural Patterns\Adapter pattern\DemoExample\DemoExample.csproj", "{45D46FB2-4EEF-4BA4-8850-B9B090EF559D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoExample", "Structural Patterns\Adapter pattern\DemoExample\DemoExample.csproj", "{45D46FB2-4EEF-4BA4-8850-B9B090EF559D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge pattern", "Bridge pattern", "{9522004F-21C4-4B7A-B79F-F05DEC69C938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrickExampleOfBridgePattern", "Structural Patterns\Bridge pattern\DotNetTrickExampleOfBridgePattern\DotNetTrickExampleOfBridgePattern.csproj", "{00041F84-6E00-484D-ABD2-B0E19855355E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrickExampleOfBridgePattern", "Structural Patterns\Bridge pattern\DotNetTrickExampleOfBridgePattern\DotNetTrickExampleOfBridgePattern.csproj", "{00041F84-6E00-484D-ABD2-B0E19855355E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGuruJavaConvertToCSharpExample", "Structural Patterns\Bridge pattern\RefactoringGuruJavaConvertToCSharpExample\RefactoringGuruJavaConvertToCSharpExample.csproj", "{B8354452-E81D-4526-BA81-50F8EF7E9DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefactoringGuruJavaConvertToCSharpExample", "Structural Patterns\Bridge pattern\RefactoringGuruJavaConvertToCSharpExample\RefactoringGuruJavaConvertToCSharpExample.csproj", "{B8354452-E81D-4526-BA81-50F8EF7E9DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherDemo", "Structural Patterns\Bridge pattern\AnotherDemo\AnotherDemo.csproj", "{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{B8354452-E81D-4526-BA81-50F8EF7E9DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8354452-E81D-4526-BA81-50F8EF7E9DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8354452-E81D-4526-BA81-50F8EF7E9DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -325,6 +331,7 @@ Global
 		{9522004F-21C4-4B7A-B79F-F05DEC69C938} = {7A1C45E9-20A1-4870-8768-D4037D63E8A3}
 		{00041F84-6E00-484D-ABD2-B0E19855355E} = {9522004F-21C4-4B7A-B79F-F05DEC69C938}
 		{B8354452-E81D-4526-BA81-50F8EF7E9DEE} = {9522004F-21C4-4B7A-B79F-F05DEC69C938}
+		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9} = {9522004F-21C4-4B7A-B79F-F05DEC69C938}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
