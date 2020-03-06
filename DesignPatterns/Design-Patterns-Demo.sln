@@ -117,6 +117,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of responsibility", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternSoftUniExample", "Behavioral Patterns\Chain of responsibility\ChainPatternSoftUniExample\ChainPatternSoftUniExample.csproj", "{C65E740D-C88D-4C5C-A778-40E69EED7B08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternWikiExample", "Behavioral Patterns\Chain of responsibility\ChainPatternWikiExample\ChainPatternWikiExample.csproj", "{353F3349-39E0-4BE7-88CB-A42001A53D7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{C65E740D-C88D-4C5C-A778-40E69EED7B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C65E740D-C88D-4C5C-A778-40E69EED7B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C65E740D-C88D-4C5C-A778-40E69EED7B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353F3349-39E0-4BE7-88CB-A42001A53D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353F3349-39E0-4BE7-88CB-A42001A53D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353F3349-39E0-4BE7-88CB-A42001A53D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353F3349-39E0-4BE7-88CB-A42001A53D7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -325,6 +331,7 @@ Global
 		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9} = {9522004F-21C4-4B7A-B79F-F05DEC69C938}
 		{F3506095-6309-4DE1-9DAE-9DFCAAC9158A} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
 		{C65E740D-C88D-4C5C-A778-40E69EED7B08} = {F3506095-6309-4DE1-9DAE-9DFCAAC9158A}
+		{353F3349-39E0-4BE7-88CB-A42001A53D7D} = {F3506095-6309-4DE1-9DAE-9DFCAAC9158A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
