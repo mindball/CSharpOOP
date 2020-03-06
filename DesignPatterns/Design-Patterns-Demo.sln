@@ -111,11 +111,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrickExampleOfBridgeP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefactoringGuruJavaConvertToCSharpExample", "Structural Patterns\Bridge pattern\RefactoringGuruJavaConvertToCSharpExample\RefactoringGuruJavaConvertToCSharpExample.csproj", "{B8354452-E81D-4526-BA81-50F8EF7E9DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherDemo", "Structural Patterns\Bridge pattern\AnotherDemo\AnotherDemo.csproj", "{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnotherDemo", "Structural Patterns\Bridge pattern\AnotherDemo\AnotherDemo.csproj", "{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of responsibility", "Chain of responsibility", "{5EC5C1B2-B64B-470B-8430-4F32DF8E022B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of responsibility", "Chain of responsibility", "{F3506095-6309-4DE1-9DAE-9DFCAAC9158A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternSoftUniExample", "ChainPatternSoftUniExample\ChainPatternSoftUniExample.csproj", "{88492E22-B7EA-4083-B675-A431A1B69ADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternSoftUniExample", "Behavioral Patterns\Chain of responsibility\ChainPatternSoftUniExample\ChainPatternSoftUniExample.csproj", "{C65E740D-C88D-4C5C-A778-40E69EED7B08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,10 +263,10 @@ Global
 		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88492E22-B7EA-4083-B675-A431A1B69ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88492E22-B7EA-4083-B675-A431A1B69ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88492E22-B7EA-4083-B675-A431A1B69ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88492E22-B7EA-4083-B675-A431A1B69ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65E740D-C88D-4C5C-A778-40E69EED7B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65E740D-C88D-4C5C-A778-40E69EED7B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65E740D-C88D-4C5C-A778-40E69EED7B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65E740D-C88D-4C5C-A778-40E69EED7B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -323,8 +323,8 @@ Global
 		{00041F84-6E00-484D-ABD2-B0E19855355E} = {9522004F-21C4-4B7A-B79F-F05DEC69C938}
 		{B8354452-E81D-4526-BA81-50F8EF7E9DEE} = {9522004F-21C4-4B7A-B79F-F05DEC69C938}
 		{DB2BEBFE-A7E7-4DDC-8A76-8B926795A0B9} = {9522004F-21C4-4B7A-B79F-F05DEC69C938}
-		{5EC5C1B2-B64B-470B-8430-4F32DF8E022B} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
-		{88492E22-B7EA-4083-B675-A431A1B69ADE} = {5EC5C1B2-B64B-470B-8430-4F32DF8E022B}
+		{F3506095-6309-4DE1-9DAE-9DFCAAC9158A} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
+		{C65E740D-C88D-4C5C-A778-40E69EED7B08} = {F3506095-6309-4DE1-9DAE-9DFCAAC9158A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
