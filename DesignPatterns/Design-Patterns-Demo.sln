@@ -119,6 +119,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternSoftUniExample"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternWikiExample", "Behavioral Patterns\Chain of responsibility\ChainPatternWikiExample\ChainPatternWikiExample.csproj", "{353F3349-39E0-4BE7-88CB-A42001A53D7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command pattern", "Command pattern", "{F3CECE58-5484-4396-B448-650BBAA2480B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOne", "Behavioral Patterns\Command pattern\DemoOne\DemoOne.csproj", "{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +277,10 @@ Global
 		{353F3349-39E0-4BE7-88CB-A42001A53D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{353F3349-39E0-4BE7-88CB-A42001A53D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{353F3349-39E0-4BE7-88CB-A42001A53D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -332,6 +340,8 @@ Global
 		{F3506095-6309-4DE1-9DAE-9DFCAAC9158A} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
 		{C65E740D-C88D-4C5C-A778-40E69EED7B08} = {F3506095-6309-4DE1-9DAE-9DFCAAC9158A}
 		{353F3349-39E0-4BE7-88CB-A42001A53D7D} = {F3506095-6309-4DE1-9DAE-9DFCAAC9158A}
+		{F3CECE58-5484-4396-B448-650BBAA2480B} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
+		{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC} = {F3CECE58-5484-4396-B448-650BBAA2480B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}

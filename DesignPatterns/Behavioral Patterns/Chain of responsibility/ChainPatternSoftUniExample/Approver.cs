@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ChainPatternSoftUniExample
+﻿namespace ChainPatternSoftUniExample
 {
     internal abstract class Approver
     {
