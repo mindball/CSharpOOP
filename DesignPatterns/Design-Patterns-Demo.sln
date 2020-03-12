@@ -127,6 +127,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template method", "Template
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTemplateMethod", "Behavioral Patterns\Template method\DemoTemplateMethod\DemoTemplateMethod.csproj", "{497E0652-07DD-4615-B83A-DCAE1E3E6DAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy pattern", "Strategy pattern", "{7125CC3C-314C-485C-B977-08227BD3F6F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrategyPattern", "Behavioral Patterns\Strategy pattern\DemoStrategyPattern\DemoStrategyPattern.csproj", "{67016E80-66A3-48A2-A4E4-5C84993CAF06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -289,6 +293,10 @@ Global
 		{497E0652-07DD-4615-B83A-DCAE1E3E6DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{497E0652-07DD-4615-B83A-DCAE1E3E6DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{497E0652-07DD-4615-B83A-DCAE1E3E6DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67016E80-66A3-48A2-A4E4-5C84993CAF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67016E80-66A3-48A2-A4E4-5C84993CAF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67016E80-66A3-48A2-A4E4-5C84993CAF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67016E80-66A3-48A2-A4E4-5C84993CAF06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -352,6 +360,8 @@ Global
 		{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC} = {F3CECE58-5484-4396-B448-650BBAA2480B}
 		{9C102C1F-1131-43D2-B3D1-CD1758DF9C0F} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
 		{497E0652-07DD-4615-B83A-DCAE1E3E6DAE} = {9C102C1F-1131-43D2-B3D1-CD1758DF9C0F}
+		{7125CC3C-314C-485C-B977-08227BD3F6F4} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
+		{67016E80-66A3-48A2-A4E4-5C84993CAF06} = {7125CC3C-314C-485C-B977-08227BD3F6F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
