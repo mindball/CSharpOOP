@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoObserver", "Behavioral 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionNotFoundExample", "Behavioral Patterns\Observer pattern\ExceptionNotFoundExample\ExceptionNotFoundExample.csproj", "{4FDE2166-FC0C-4FAC-8A37-BAE6873FF284}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeProjectObserverExample", "Behavioral Patterns\Observer pattern\CodeProjectObserverExample\CodeProjectObserverExample.csproj", "{C3FAEAD7-2DD1-4116-9377-C1C89667F51D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -311,6 +313,10 @@ Global
 		{4FDE2166-FC0C-4FAC-8A37-BAE6873FF284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FDE2166-FC0C-4FAC-8A37-BAE6873FF284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FDE2166-FC0C-4FAC-8A37-BAE6873FF284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FAEAD7-2DD1-4116-9377-C1C89667F51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FAEAD7-2DD1-4116-9377-C1C89667F51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FAEAD7-2DD1-4116-9377-C1C89667F51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FAEAD7-2DD1-4116-9377-C1C89667F51D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -379,6 +385,7 @@ Global
 		{3350E7C3-4C18-4BC3-8964-B3A40B0E807E} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
 		{62173E3A-2EE1-46AD-BD0E-65D134933C94} = {3350E7C3-4C18-4BC3-8964-B3A40B0E807E}
 		{4FDE2166-FC0C-4FAC-8A37-BAE6873FF284} = {3350E7C3-4C18-4BC3-8964-B3A40B0E807E}
+		{C3FAEAD7-2DD1-4116-9377-C1C89667F51D} = {3350E7C3-4C18-4BC3-8964-B3A40B0E807E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
