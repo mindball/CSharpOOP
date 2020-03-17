@@ -145,6 +145,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFromXxceptionNotFound",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottlillyExampleMemento", "Behavioral Patterns\Memento pattern\ScottlillyExampleMemento\ScottlillyExampleMemento.csproj", "{8466D26D-3AA9-4624-815E-7229B097C8CB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator pattern", "Mediator pattern", "{CE41AEFE-361E-4480-85DC-D6FE3A7336DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetLeadRealExample", "Behavioral Patterns\Mediator pattern\DotnetLeadRealExample\DotnetLeadRealExample.csproj", "{391887AB-A5E0-4B99-9999-FAC5A245A4EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -331,6 +335,10 @@ Global
 		{8466D26D-3AA9-4624-815E-7229B097C8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8466D26D-3AA9-4624-815E-7229B097C8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8466D26D-3AA9-4624-815E-7229B097C8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391887AB-A5E0-4B99-9999-FAC5A245A4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391887AB-A5E0-4B99-9999-FAC5A245A4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391887AB-A5E0-4B99-9999-FAC5A245A4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391887AB-A5E0-4B99-9999-FAC5A245A4EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -403,6 +411,8 @@ Global
 		{2837701F-DE0E-4207-BDDA-6CF64B5D8CAB} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
 		{D27ED2E8-FC3D-4587-8738-04A0E1C6ABE0} = {2837701F-DE0E-4207-BDDA-6CF64B5D8CAB}
 		{8466D26D-3AA9-4624-815E-7229B097C8CB} = {2837701F-DE0E-4207-BDDA-6CF64B5D8CAB}
+		{CE41AEFE-361E-4480-85DC-D6FE3A7336DA} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
+		{391887AB-A5E0-4B99-9999-FAC5A245A4EF} = {CE41AEFE-361E-4480-85DC-D6FE3A7336DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
