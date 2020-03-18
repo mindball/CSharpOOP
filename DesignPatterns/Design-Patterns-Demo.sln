@@ -115,41 +115,47 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnotherDemo", "Structural P
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of responsibility", "Chain of responsibility", "{F3506095-6309-4DE1-9DAE-9DFCAAC9158A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternSoftUniExample", "Behavioral Patterns\Chain of responsibility\ChainPatternSoftUniExample\ChainPatternSoftUniExample.csproj", "{C65E740D-C88D-4C5C-A778-40E69EED7B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainPatternSoftUniExample", "Behavioral Patterns\Chain of responsibility\ChainPatternSoftUniExample\ChainPatternSoftUniExample.csproj", "{C65E740D-C88D-4C5C-A778-40E69EED7B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainPatternWikiExample", "Behavioral Patterns\Chain of responsibility\ChainPatternWikiExample\ChainPatternWikiExample.csproj", "{353F3349-39E0-4BE7-88CB-A42001A53D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainPatternWikiExample", "Behavioral Patterns\Chain of responsibility\ChainPatternWikiExample\ChainPatternWikiExample.csproj", "{353F3349-39E0-4BE7-88CB-A42001A53D7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command pattern", "Command pattern", "{F3CECE58-5484-4396-B448-650BBAA2480B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOne", "Behavioral Patterns\Command pattern\DemoOne\DemoOne.csproj", "{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoOne", "Behavioral Patterns\Command pattern\DemoOne\DemoOne.csproj", "{0BC52438-329E-44BB-8B31-A4EAE5DBDFFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template method", "Template method", "{9C102C1F-1131-43D2-B3D1-CD1758DF9C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTemplateMethod", "Behavioral Patterns\Template method\DemoTemplateMethod\DemoTemplateMethod.csproj", "{497E0652-07DD-4615-B83A-DCAE1E3E6DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoTemplateMethod", "Behavioral Patterns\Template method\DemoTemplateMethod\DemoTemplateMethod.csproj", "{497E0652-07DD-4615-B83A-DCAE1E3E6DAE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy pattern", "Strategy pattern", "{7125CC3C-314C-485C-B977-08227BD3F6F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrategyPattern", "Behavioral Patterns\Strategy pattern\DemoStrategyPattern\DemoStrategyPattern.csproj", "{67016E80-66A3-48A2-A4E4-5C84993CAF06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoStrategyPattern", "Behavioral Patterns\Strategy pattern\DemoStrategyPattern\DemoStrategyPattern.csproj", "{67016E80-66A3-48A2-A4E4-5C84993CAF06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer pattern", "Observer pattern", "{3350E7C3-4C18-4BC3-8964-B3A40B0E807E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoObserver", "Behavioral Patterns\Observer pattern\DemoObserver\DemoObserver.csproj", "{62173E3A-2EE1-46AD-BD0E-65D134933C94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoObserver", "Behavioral Patterns\Observer pattern\DemoObserver\DemoObserver.csproj", "{62173E3A-2EE1-46AD-BD0E-65D134933C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionNotFoundExample", "Behavioral Patterns\Observer pattern\ExceptionNotFoundExample\ExceptionNotFoundExample.csproj", "{4FDE2166-FC0C-4FAC-8A37-BAE6873FF284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionNotFoundExample", "Behavioral Patterns\Observer pattern\ExceptionNotFoundExample\ExceptionNotFoundExample.csproj", "{4FDE2166-FC0C-4FAC-8A37-BAE6873FF284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeProjectObserverExample", "Behavioral Patterns\Observer pattern\CodeProjectObserverExample\CodeProjectObserverExample.csproj", "{C3FAEAD7-2DD1-4116-9377-C1C89667F51D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeProjectObserverExample", "Behavioral Patterns\Observer pattern\CodeProjectObserverExample\CodeProjectObserverExample.csproj", "{C3FAEAD7-2DD1-4116-9377-C1C89667F51D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento pattern", "Memento pattern", "{2837701F-DE0E-4207-BDDA-6CF64B5D8CAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFromXxceptionNotFound", "Behavioral Patterns\Memento pattern\DemoFromXxceptionNotFound\DemoFromXxceptionNotFound.csproj", "{D27ED2E8-FC3D-4587-8738-04A0E1C6ABE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoFromXxceptionNotFound", "Behavioral Patterns\Memento pattern\DemoFromXxceptionNotFound\DemoFromXxceptionNotFound.csproj", "{D27ED2E8-FC3D-4587-8738-04A0E1C6ABE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottlillyExampleMemento", "Behavioral Patterns\Memento pattern\ScottlillyExampleMemento\ScottlillyExampleMemento.csproj", "{8466D26D-3AA9-4624-815E-7229B097C8CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScottlillyExampleMemento", "Behavioral Patterns\Memento pattern\ScottlillyExampleMemento\ScottlillyExampleMemento.csproj", "{8466D26D-3AA9-4624-815E-7229B097C8CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator pattern", "Mediator pattern", "{CE41AEFE-361E-4480-85DC-D6FE3A7336DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetLeadRealExample", "Behavioral Patterns\Mediator pattern\DotnetLeadRealExample\DotnetLeadRealExample.csproj", "{391887AB-A5E0-4B99-9999-FAC5A245A4EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetLeadRealExample", "Behavioral Patterns\Mediator pattern\DotnetLeadRealExample\DotnetLeadRealExample.csproj", "{391887AB-A5E0-4B99-9999-FAC5A245A4EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionNotFoundMediatorPattern", "Behavioral Patterns\Mediator pattern\ExceptionNotFoundMediatorPattern\ExceptionNotFoundMediatorPattern.csproj", "{4FEBB909-2BED-4BA7-840A-E3CE9D05DC96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionNotFoundMediatorPattern", "Behavioral Patterns\Mediator pattern\ExceptionNotFoundMediatorPattern\ExceptionNotFoundMediatorPattern.csproj", "{4FEBB909-2BED-4BA7-840A-E3CE9D05DC96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State pattern", "State pattern", "{86772500-05BE-4DAD-A22B-8F75F620D4B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStatePattern", "Behavioral Patterns\State pattern\DemoStatePattern\DemoStatePattern.csproj", "{D67A2046-E3A2-4B9F-984F-9AEFDF22CC5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionNotFoundState", "Behavioral Patterns\State pattern\ExceptionNotFoundState\ExceptionNotFoundState.csproj", "{EAF38BD7-5AD0-43CA-A41D-FB342AC0DD62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -345,6 +351,14 @@ Global
 		{4FEBB909-2BED-4BA7-840A-E3CE9D05DC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FEBB909-2BED-4BA7-840A-E3CE9D05DC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FEBB909-2BED-4BA7-840A-E3CE9D05DC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67A2046-E3A2-4B9F-984F-9AEFDF22CC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67A2046-E3A2-4B9F-984F-9AEFDF22CC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67A2046-E3A2-4B9F-984F-9AEFDF22CC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67A2046-E3A2-4B9F-984F-9AEFDF22CC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF38BD7-5AD0-43CA-A41D-FB342AC0DD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF38BD7-5AD0-43CA-A41D-FB342AC0DD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF38BD7-5AD0-43CA-A41D-FB342AC0DD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF38BD7-5AD0-43CA-A41D-FB342AC0DD62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -420,6 +434,9 @@ Global
 		{CE41AEFE-361E-4480-85DC-D6FE3A7336DA} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
 		{391887AB-A5E0-4B99-9999-FAC5A245A4EF} = {CE41AEFE-361E-4480-85DC-D6FE3A7336DA}
 		{4FEBB909-2BED-4BA7-840A-E3CE9D05DC96} = {CE41AEFE-361E-4480-85DC-D6FE3A7336DA}
+		{86772500-05BE-4DAD-A22B-8F75F620D4B2} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
+		{D67A2046-E3A2-4B9F-984F-9AEFDF22CC5E} = {86772500-05BE-4DAD-A22B-8F75F620D4B2}
+		{EAF38BD7-5AD0-43CA-A41D-FB342AC0DD62} = {86772500-05BE-4DAD-A22B-8F75F620D4B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}
