@@ -167,6 +167,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor pattern", "Visitor 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoVisitorPattern", "Behavioral Patterns\Visitor pattern\DemoVisitorPattern\DemoVisitorPattern.csproj", "{3248E2BF-77DE-4715-ABA7-68A197CBF69F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionNotFoundVisitorPattern", "Behavioral Patterns\Visitor pattern\ExceptionNotFoundVisitorPattern\ExceptionNotFoundVisitorPattern.csproj", "{30625604-E852-495F-8F70-391B89D717DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{3248E2BF-77DE-4715-ABA7-68A197CBF69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3248E2BF-77DE-4715-ABA7-68A197CBF69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3248E2BF-77DE-4715-ABA7-68A197CBF69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30625604-E852-495F-8F70-391B89D717DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30625604-E852-495F-8F70-391B89D717DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30625604-E852-495F-8F70-391B89D717DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30625604-E852-495F-8F70-391B89D717DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -464,6 +470,7 @@ Global
 		{73970ADF-5A4B-442F-9EBA-AA433801FF78} = {D4C5A20F-A09E-49F5-B7A8-4BE99E86D78F}
 		{E28F5721-6BC8-41E3-B636-CBEBD00301ED} = {F2CC08B8-C7A1-44F6-A1A8-22E6BAC94393}
 		{3248E2BF-77DE-4715-ABA7-68A197CBF69F} = {E28F5721-6BC8-41E3-B636-CBEBD00301ED}
+		{30625604-E852-495F-8F70-391B89D717DE} = {E28F5721-6BC8-41E3-B636-CBEBD00301ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85F9587-40D5-4D04-B7F8-7B272F8C0C56}

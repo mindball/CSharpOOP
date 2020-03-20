@@ -4,7 +4,7 @@ using System;
 
 namespace DemoVisitorPattern
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {
