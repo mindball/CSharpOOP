@@ -4,7 +4,7 @@ Mediator is a behavioral design pattern that lets you reduce chaotic
 dependencies between objects. The pattern restricts direct communications 
 between the objects and forces them to collaborate only via a mediator object.
 ```
-![Mediator pattern](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dotnettricks.com%2Flearn%2Fdesignpatterns%2Fmediator-design-pattern-c-sharp&psig=AOvVaw0_mRfxVB3XURY7xIi_a8ZJ&ust=1584513456820000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCSueDyoOgCFQAAAAAdAAAAABBe)
+![Mediator pattern](https://reactiveprogramming.io/public/books/patterns/img/patterns-articles/mediator-diagram.png)
 ## When to use
 ```
 Use the Mediator pattern when it’s hard to change some of the 
