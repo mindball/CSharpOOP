@@ -1,13 +1,13 @@
-﻿namespace PlayersAndMonsters.Models.BattleFields.Models
+﻿namespace PlayersAndMonsters.Models.BattleFields
 {
-    using PlayersAndMonsters.Models.BattleFields.Contracts;
-    using PlayersAndMonsters.Models.Cards.Contracts;
-    using PlayersAndMonsters.Models.Players.Contracts;
-    using PlayersAndMonsters.Models.Players.Models;
-    using PlayersAndMonsters.Repositories.Contracts;
     using System;
     using System.Collections.Generic;
     using System.Linq;
+
+    using PlayersAndMonsters.Models.BattleFields.Contracts;
+    using PlayersAndMonsters.Models.Cards.Contracts;
+    using PlayersAndMonsters.Models.Players.Contracts;
+    using PlayersAndMonsters.Models.Players;
 
     public class BattleField : IBattleField
     {
@@ -24,32 +24,34 @@
                 //TODO check return
                 AssingBeginnerBonus(attackPlayer);
             }
-           if(enemyPlayer is Beginner)
+            if (enemyPlayer is Beginner)
             {
                 //TODO check return
                 AssingBeginnerBonus(enemyPlayer);
             }
 
+            attackPlayer = this.BoostPlayer(attackPlayer);
+            enemyPlayer = this.BoostPlayer(enemyPlayer);
+
             //TODO check result of damage points of cards
-            int attackPlayerSummaryDamagePoints =
+            while(!attackPlayer.IsDead && !enemyPlayer.IsDead)
+            {
+                int attackPlayerSummaryDamagePoints =
                 PlayerSumDamagePoints(attackPlayer.CardRepository.Cards);
-            enemyPlayer.TakeDamage(attackPlayerSummaryDamagePoints);
-           
+                enemyPlayer.TakeDamage(attackPlayerSummaryDamagePoints);
 
-            if (enemyPlayer.IsDead)
-                return;
+                if (enemyPlayer.IsDead)
+                    break;
 
-            int enemyPlayerSummaryDamagePoints =
+                int enemyPlayerSummaryDamagePoints =
                 PlayerSumDamagePoints(enemyPlayer.CardRepository.Cards);
-            attackPlayer.TakeDamage(enemyPlayerSummaryDamagePoints);
+                attackPlayer.TakeDamage(enemyPlayerSummaryDamagePoints);
 
-            if (attackPlayer.IsDead)
-                return;
-
+                //there is no point because while condition check player is alive
+                //if (attackPlayer.IsDead)
+                //    return;
+            }            
         }
-
-       
-
         private void AssingBeginnerBonus(IPlayer player)
         {
             player.Health += beginnerHealthBonus;
@@ -59,9 +61,18 @@
             }
         }
 
+        private  IPlayer BoostPlayer(IPlayer player)
+        {
+            player.Health += player.CardRepository
+                             .Cards.Select(x => x.HealthPoints).Sum();
+
+            return player;
+        }
+
+
         private int PlayerSumDamagePoints(IReadOnlyCollection<ICard> cards)
         {
-            return cards.Sum(x => x.DamagePoints);
+            return cards.Select(x => x.DamagePoints).Sum();
         }
     }
 }

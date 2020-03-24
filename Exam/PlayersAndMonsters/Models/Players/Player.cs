@@ -1,4 +1,4 @@
-﻿namespace PlayersAndMonsters.Models.Players.Models
+﻿namespace PlayersAndMonsters.Models.Players
 {
     using System;
 
@@ -11,7 +11,7 @@
         private int health;
         private bool isDead;
 
-        public Player(ICardRepository cardRepository, string username, int health)
+        protected Player(ICardRepository cardRepository, string username, int health)
         {
             this.CardRepository = cardRepository;
             this.Username = username;
@@ -45,32 +45,16 @@
                 this.health = value;
             }
         }
-        public bool IsDead
-        {
-            get => this.isDead;
-            set
-            {
-                this.isDead = value;
-            }                
-        }
+        public bool IsDead => this.Health < 0;
 
         public void TakeDamage(int damagePoints)
         {
-            if(damagePoints < 0)
+            if (damagePoints < 0)
             {
                 throw new ArgumentException("Damage points cannot be less than zero.");
             }
 
-            int result = this.Health - damagePoints;
-            if (result < 0)
-            {
-                this.IsDead = true;
-                this.Health = 0;
-            }
-            else
-            {
-                this.Health -= damagePoints;
-            }
+            this.Health = Math.Max(this.Health - damagePoints, 0);
         }
     }
 }

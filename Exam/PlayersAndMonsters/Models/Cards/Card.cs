@@ -1,4 +1,4 @@
-﻿namespace PlayersAndMonsters.Models.Cards.Models
+﻿namespace PlayersAndMonsters.Models.Cards
 {
     using System;
     using PlayersAndMonsters.Models.Cards.Contracts;
@@ -25,7 +25,7 @@
                     throw new ArgumentException("Card's name cannot be null or an empty string.");
                 }
 
-                this.name = name;
+                this.name = value;
             }
         }
         public int DamagePoints
