@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\BattleFields\Models\" />
+    <Compile Remove="Models\BattleFields\Models\**" />
+    <EmbeddedResource Remove="Models\BattleFields\Models\**" />
+    <None Remove="Models\BattleFields\Models\**" />
   </ItemGroup>
 
 </Project>

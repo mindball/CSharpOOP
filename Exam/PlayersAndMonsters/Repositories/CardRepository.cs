@@ -6,10 +6,10 @@ namespace PlayersAndMonsters.Repositories
     using System.Collections.Generic;
     using System.Linq;
 
-    using PlayersAndMonsters.Models.Cards.Contracts;    
-    using PlayersAndMonsters.Repositories.Contracts;
+    using Models.Cards.Contracts;    
+    using Contracts;
 
-    class CardRepository : ICardRepository
+    public class CardRepository : ICardRepository
     {
         private Dictionary<string, ICard> cards;
 
@@ -18,7 +18,7 @@ namespace PlayersAndMonsters.Repositories
             this.cards = new Dictionary<string, ICard>();
         }
 
-        public int Count => this.cards.Count;
+        public int Count => this.Cards.Count;
 
         public IReadOnlyCollection<ICard> Cards => 
             this.cards.Values.ToList().AsReadOnly();
@@ -26,9 +26,9 @@ namespace PlayersAndMonsters.Repositories
 
         public void Add(ICard card)
         {
-            if (card is null)
+            if (card == null)
             {
-                throw new ArgumentException("Card cannot be null");
+                throw new ArgumentException("Card cannot be null!");
             }
 
             if (this.cards.ContainsKey(card.Name))
@@ -51,6 +51,11 @@ namespace PlayersAndMonsters.Repositories
 
         public bool Remove(ICard card)
         {
+            if (card == null)
+            {
+                throw new ArgumentException("Card cannot be null!");
+            }
+
             return this.cards.Remove(card.Name);
         }
     }

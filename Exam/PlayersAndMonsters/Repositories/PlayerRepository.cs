@@ -4,8 +4,8 @@
     using System.Linq;
     using System.Collections.Generic;
 
-    using PlayersAndMonsters.Models.Players.Contracts;
-    using PlayersAndMonsters.Repositories.Contracts;
+    using Models.Players.Contracts;
+    using Contracts;
 
 
     public class PlayerRepository : IPlayerRepository
@@ -16,16 +16,16 @@
             this.players = new Dictionary<string, IPlayer>();
         }
 
-        public int Count => this.players.Count;
+        public int Count => this.Players.Count;
 
         public IReadOnlyCollection<IPlayer> Players =>
             this.players.Values.ToList().AsReadOnly();
 
         public void Add(IPlayer player)
         {
-            if(player is null)
+            if(player == null)
             {
-                throw new ArgumentException("Player cannot be null");
+                throw new ArgumentException("Player cannot be null!");
             }
 
             if(this.players.ContainsKey(player.Username))                
@@ -48,9 +48,9 @@
 
         public bool Remove(IPlayer player)
         {
-            if (player is null)
+            if (player == null)
             {
-                throw new ArgumentException("Player cannot be null");
+                throw new ArgumentException("Player cannot be null!");
             }
 
             return this.players.Remove(player.Username);

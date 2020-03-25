@@ -1,7 +1,8 @@
 ﻿namespace PlayersAndMonsters.Models.Cards
 {
     using System;
-    using PlayersAndMonsters.Models.Cards.Contracts;
+    using Contracts;
+    using PlayersAndMonsters.Common;
 
     public abstract class Card : ICard
     {
@@ -9,7 +10,7 @@
         private int damagePoints;
         private int healthPoints;
 
-        public Card(string name, int damagePoints, int healthPoints)
+        protected Card(string name, int damagePoints, int healthPoints)
         {
             this.Name = name;
             this.DamagePoints = damagePoints;
@@ -19,11 +20,9 @@
         {
             get => this.name;
             private set
-            {
-                if(string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentException("Card's name cannot be null or an empty string.");
-                }
+            {               
+                Validator.ThrowIfStringIsNullOrEmpty(value,
+                    "Card's name cannot be null or an empty string.");
 
                 this.name = value;
             }
@@ -32,11 +31,9 @@
         {
             get => this.damagePoints;
             set
-            {
-                if(value < 0)
-                {
-                    throw new ArgumentException("Card's damage points cannot be less than zero.");
-                }
+            {                
+                Validator.ThrowIfNumberIsOrNegative(value,
+                    "Card's damage points cannot be less than zero.");
 
                 this.damagePoints = value;
             }
@@ -45,11 +42,9 @@
         {
             get => this.healthPoints;
             private set
-            {
-                if (value < 0)
-                {
-                    throw new ArgumentException("Card's HP cannot be less than zero.");
-                }
+            {               
+                Validator.ThrowIfNumberIsOrNegative(value,
+                    "Card's HP cannot be less than zero.");
 
                 this.healthPoints = value;
             }

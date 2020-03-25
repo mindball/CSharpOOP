@@ -4,10 +4,9 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    using PlayersAndMonsters.Models.BattleFields.Contracts;
-    using PlayersAndMonsters.Models.Cards.Contracts;
-    using PlayersAndMonsters.Models.Players.Contracts;
-    using PlayersAndMonsters.Models.Players;
+    using Contracts;
+    using Players;
+    using Players.Contracts;    
 
     public class BattleField : IBattleField
     {
@@ -37,14 +36,14 @@
             while(!attackPlayer.IsDead && !enemyPlayer.IsDead)
             {
                 int attackPlayerSummaryDamagePoints =
-                PlayerSumDamagePoints(attackPlayer.CardRepository.Cards);
+                PlayerSumDamagePoints(attackPlayer);
                 enemyPlayer.TakeDamage(attackPlayerSummaryDamagePoints);
 
                 if (enemyPlayer.IsDead)
                     break;
 
                 int enemyPlayerSummaryDamagePoints =
-                PlayerSumDamagePoints(enemyPlayer.CardRepository.Cards);
+                PlayerSumDamagePoints(enemyPlayer);
                 attackPlayer.TakeDamage(enemyPlayerSummaryDamagePoints);
 
                 //there is no point because while condition check player is alive
@@ -70,9 +69,9 @@
         }
 
 
-        private int PlayerSumDamagePoints(IReadOnlyCollection<ICard> cards)
+        private int PlayerSumDamagePoints(IPlayer player)
         {
-            return cards.Select(x => x.DamagePoints).Sum();
+            return player.CardRepository.Cards.Sum(d => d.DamagePoints);
         }
     }
 }
