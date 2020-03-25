@@ -9,29 +9,32 @@
     using Models.Cards.Contracts;
     using Models.Players.Contracts;
     using Repositories.Contracts;
-    using Models.BattleFields;
+    using Models.BattleFields.Contracts;
 
     public class ManagerController : IManagerController
     {
         private ICardRepository cardRepository;
         private IPlayerRepository playerRepository;
-        private IPlayerFactory createPlayer;
-        private ICardFactory createCard;
+        private IPlayerFactory playerFactory;
+        private ICardFactory cardFactory;
+        private IBattleField battleField;
 
         public ManagerController(ICardRepository cardRepository,
             IPlayerRepository playerRepository,
             IPlayerFactory createPlayer,
-            ICardFactory createCard)
+            ICardFactory createCard,
+            IBattleField battleField)
         {
-            this.createPlayer = createPlayer;
-            this.createCard = createCard;
+            this.playerFactory = createPlayer;
+            this.cardFactory = createCard;
             this.cardRepository = cardRepository;
             this.playerRepository = playerRepository;
+            this.battleField = battleField;
         }
 
         public string AddPlayer(string type, string username)
         {
-            IPlayer newPlayer = this.createPlayer.CreatePlayer(type, username);
+            IPlayer newPlayer = this.playerFactory.CreatePlayer(type, username);
             this.playerRepository.Add(newPlayer);
 
             string message = string.Format(
@@ -44,13 +47,13 @@
 
         public string AddCard(string type, string name)
         {
-            ICard newCard = this.createCard.CreateCard(type, name);
+            ICard newCard = this.cardFactory.CreateCard(type, name);
             this.cardRepository.Add(newCard);
 
             string message = string.Format(
                 ConstantMessages.SuccessfullyAddedCard,
-                newCard.GetType().Name,
-                newCard.Name);
+                type,
+                name);
 
             return message;
         }
@@ -78,13 +81,12 @@
         {
             var attacker = this.playerRepository.Find(attackUser);
             var enemy = this.playerRepository.Find(enemyUser);
-
-            BattleField battleField = new BattleField();
+             
             battleField.Fight(attacker, enemy);
 
             string message = string.Format(
                 ConstantMessages.FightInfo,
-                attackUser, enemyUser);
+                attacker.Health, enemy.Health);
 
             return message;
         }
@@ -109,13 +111,10 @@
                             card.DamagePoints));
                     }
                 }
-
-                message.AppendLine();
-                message.AppendLine(ConstantMessages.DefaultReportSeparator);
-                message.AppendLine();
+                message.AppendLine(ConstantMessages.DefaultReportSeparator);               
             }
 
-            return message.ToString();
+            return message.ToString().TrimEnd();
         }
     }
 }
