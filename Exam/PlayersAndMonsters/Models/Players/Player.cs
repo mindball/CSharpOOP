@@ -3,7 +3,7 @@
     using System;
 
     using Contracts;
-    using PlayersAndMonsters.Common;
+    using Common;
     using Repositories.Contracts;
 
     public abstract class Player : IPlayer

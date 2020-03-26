@@ -1,9 +1,7 @@
 ﻿namespace PlayersAndMonsters.Models.Cards
 {
-    using System;
+    using Common;
     using Contracts;
-    using PlayersAndMonsters.Common;
-
     public abstract class Card : ICard
     {
         private string name;
